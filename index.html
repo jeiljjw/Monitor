@@ -30,7 +30,7 @@
     .kakao-ad-left { left: 10px; }
     .kakao-ad-right { right: 10px; }
     @media (max-width: 1200px) {
-      .kakao-ad-left, .kakao-ad-right { display: none; }
+      .kakao-ad-left, .kakao-ad-right { display: none !important; }
     }
   </style>
 </head>
@@ -151,10 +151,10 @@
   <script src="js/i18n.js"></script>
   <script src="js/resolution.js"></script>
   <div class="kakao-ad-left">
-    <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-1kGujWmjVOE9LL6H" data-ad-width="160" data-ad-height="600"></ins>
+    <ins class="kakao_ad_area" style="display:none; width:160px; height:600px;" data-ad-unit="DAN-1kGujWmjVOE9LL6H" data-ad-width="160" data-ad-height="600"></ins>
   </div>
   <div class="kakao-ad-right">
-    <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-hT2arkcur4FdlH47" data-ad-width="160" data-ad-height="600"></ins>
+    <ins class="kakao_ad_area" style="display:none; width:160px; height:600px;" data-ad-unit="DAN-hT2arkcur4FdlH47" data-ad-width="160" data-ad-height="600"></ins>
   </div>
   <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 </body>
