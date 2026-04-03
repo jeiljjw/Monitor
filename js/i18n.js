@@ -164,8 +164,8 @@ const TRANSLATIONS = {
 
   ko: {
     // Meta
-    "meta.title": "내 화면 해상도는? &mdash; 무료 화면 해상도 확인",
-    "meta.description": "순식간에 화면 해상도, 색상 깊이, 픽셀 비율 등을 확인하세요. 무료 온라인 도구 &mdash; 서버로 데이터가 전송되지 않습니다.",
+    "meta.title": "내 화면 해상도는? - 무료 화면 해상도 확인",
+    "meta.description": "순식간에 화면 해상도, 색상 깊이, 픽셀 비율 등을 확인하세요. 무료 온라인 도구 - 서버로 데이터가 전송되지 않습니다.",
 
     // Nav
     "nav.home": "홈",
@@ -200,7 +200,7 @@ const TRANSLATIONS = {
 
     // Footer
     "footer.text": "화면 해상도를 확인하세요. 서버로 데이터가 전송되지 않습니다.",
-    "footer.text2": "ScreenResolution &mdash; <a href=\"index.html\">화면 크기 확인</a> &middot; 무료 화면 감지 도구",
+    "footer.text2": "ScreenResolution - <a href=\"index.html\">화면 크기 확인</a> &middot; 무료 화면 감지 도구",
 
     // Blog
     "blog.meta.published": "게시일",
@@ -278,8 +278,8 @@ const TRANSLATIONS = {
     // Blog — Screen Size vs Resolution
     "blog.h2.vs": "화면 크기 vs 해상도 주요 차이",
     "blog.p.vs_intro": "가장 많이 헷갈리는 부분 중 하나입니다. 명확하게 구분해 보겠습니다:",
-    "blog.li.vs_size": "<strong>화면 크기</strong>는 <em>물리적</em> 측정값 &mdash; 디스플레이의 대각선 거리 (인치). 27인치 모니터는 24인치 모니터보다 물리적으로 더 큽니다.",
-    "blog.li.vs_res": "<strong>화면 해상도</strong>는 <em>디지털</em> 측정값 &mdash; 가로·세로 차원의 픽셀 수. 3840x2160 (4K) 디스플레이는 1920x1080 (풀HD) 디스플레이보다 더 많은 픽셀을 가집니다.",
+    "blog.li.vs_size": "<strong>화면 크기</strong>는 <em>물리적</em> 측정값 - 디스플레이의 대각선 거리 (인치). 27인치 모니터는 24인치 모니터보다 물리적으로 더 큽니다.",
+    "blog.li.vs_res": "<strong>화면 해상도</strong>는 <em>디지털</em> 측정값 - 가로·세로 차원의 픽셀 수. 3840x2160 (4K) 디스플레이는 1920x1080 (풀HD) 디스플레이보다 더 많은 픽셀을 가집니다.",
     "blog.li.vs_ppi": "<strong>픽셀 밀도 (PPI)</strong>는 둘을 통합합니다. 화면 각 인치에 얼마나 많은 픽셀이 밀집되어 있는지를 알려줍니다.",
     "blog.p.vs_analogy": "유용한 비유: 같은 수의 점으로 채워진 크기가 다른 두 캔버스를 상상해 보세요. 작은 캔버스에는 점이 더 조밀하게 채워져 매끄럽고 상세한 그림이 됩니다. 큰 캔버스는 더 거칠고 화소화된 것처럼 보입니다. 이것이 픽셀 밀도입니다.",
     "blog.p.vs_importance": "이것이 27인치 1920x1080 모니터가 같은 해상도의 24인치 모니터보다 텍스트와 세부 사항에서 눈에 띄게 흐릿하게 보일 수 있는 이유입니다. 픽셀이 더 넓은 영역에 더 얇게 퍼져 있습니다.",
@@ -287,10 +287,10 @@ const TRANSLATIONS = {
     // Blog — How to Measure
     "blog.h2.measure": "화면 크기 측정 방법",
     "blog.p.measure_intro": "명세서에서 모니터의 물리적 화면 크기를 찾을 수 없다면, 테이프 측량으로 직접 측정할 수 있습니다:",
-    "blog.oli.measure1": "<strong>유연한 줄자 또는 자를 사용</strong> &mdash; 일반 금속 자는 대각선 측량에 적합하지 않습니다",
-    "blog.oli.measure2": "<strong>보이는 화면 영역만 측정</strong> &mdash; 디스플레이 주변의 플라스틱 또는 금속 프레임(베젤)은 포함하지 않습니다",
-    "blog.oli.measure3": "<strong>대각선으로 측정</strong> &mdash; 보이는 디스플레이의 왼쪽 아래 모퉁이에서 오른쪽 위 모퉁이까지",
-    "blog.oli.measure4": "<strong>인치로 측정값 읽기</strong> &mdash; 이것이 화면 크기입니다. 미터법 테이프를 사용한다면 센티미터을 2.54로 나눕니다",
+    "blog.oli.measure1": "<strong>유연한 줄자 또는 자를 사용</strong> - 일반 금속 자는 대각선 측량에 적합하지 않습니다",
+    "blog.oli.measure2": "<strong>보이는 화면 영역만 측정</strong> - 디스플레이 주변의 플라스틱 또는 금속 프레임(베젤)은 포함하지 않습니다",
+    "blog.oli.measure3": "<strong>대각선으로 측정</strong> - 보이는 디스플레이의 왼쪽 아래 모퉁이에서 오른쪽 위 모퉁이까지",
+    "blog.oli.measure4": "<strong>인치로 측정값 읽기</strong> - 이것이 화면 크기입니다. 미터법 테이프를 사용한다면 센티미터을 2.54로 나눕니다",
     "blog.p.measure_outro": "모니터의 일반적인 크기는 24\", 27\", 32\", 또는 34\" (초와이드)입니다. 노트북은 일반적으로 13.3\", 14\", 15.6\", 16\"입니다. 태블릿은 8\" (미니)에서 13\" (프로)까지입니다.",
     "blog.p.measure_link": "컴퓨터에서 무료 감지 도구를 사용하여 <a href=\"index.html\">내 화면 크기</a>를 빠르게 찾을 수도 있습니다. 자동으로 기기 기능을 읽고 정확한 해상도, 종횡비, 추정 물리적 크기를 표시합니다.",
 

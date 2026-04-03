@@ -19,3 +19,6 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# KaKao ad configuration (contains sensitive ad unit IDs)
+docs/kakao_ad.md
