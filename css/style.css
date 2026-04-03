@@ -240,6 +240,8 @@ body::after {
 }
 
 /* ========== Hero (Tool homepage) ========== */
+
+.hero-refresh-row { display: flex; justify-content: center; margin-top: 0.5rem; }
 .hero {
   text-align: center;
   padding: 3rem 0 2.5rem;
@@ -629,4 +631,18 @@ body::after {
   .cta-box { padding: 1.25rem; }
 
   .navbar { flex-wrap: wrap; gap: 0.5rem; }
+}
+
+/* ========== Kakao Ads ========== */
+.kakao-ad-left,
+.kakao-ad-right {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+}
+.kakao-ad-left { left: 10px; }
+.kakao-ad-right { right: 10px; }
+@media (max-width: 1200px) {
+  .kakao-ad-left, .kakao-ad-right { display: none !important; }
 }
