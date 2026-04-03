@@ -1,0 +1,21 @@
+# bkit internal state & snapshots
+.bkit/state/
+.bkit/snapshots/
+.bkit/runtime/
+
+# bkit memory (optional — remove if you want to track it)
+.bkit/state/memory.json
+
+# Playwright MCP recordings
+.playwright-mcp/
+
+# OS & editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
